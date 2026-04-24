@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flux
 
-## Getting Started
+**Architecting Logic. Engineering Insight.**
 
-First, run the development server:
+Flux is a premium, high-performance personal portfolio engineered with Next.js, Tailwind CSS, Framer Motion, and GSAP. It features a fully dynamic "Obsidian Tech" dark mode aesthetic, smooth scroll momentum, 3D interactive elements via React Three Fiber, and a K-Means clustering physics engine built into the UI.
 
+## Features
+- **3D Interactive Hero**: A subtle, slow-dynamic atom rendered in real-time that reacts to scroll and cursor movement.
+- **GSAP Physics Playground**: A custom K-Means centroid simulation acting as a living background swarm.
+- **Dynamic Neural Grid**: Interactive floating domains utilizing Framer Motion for network architecture visualization.
+- **Cyber-Professional UI**: Complete `#000000` pitch black aesthetic with glassmorphic cards, neon cyan accents, and IDE-styled data components.
+
+## Tech Stack
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion & GSAP
+- **Scroll Engine**: Lenis (Smooth Scroll)
+- **3D Engine**: React Three Fiber & Three.js
+- **Icons**: Lucide React
+
+## Local Development
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/arrieejain3149/Flux.git
+cd Flux
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+This project is optimized for deployment on [Vercel](https://vercel.com). Simply link your GitHub repository to Vercel for automatic deployments on push.
