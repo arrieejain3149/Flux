@@ -39,4 +39,5 @@ npm run dev
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deployment
-This project is optimized for deployment on [Vercel](https://vercel.com). Simply link your GitHub repository to Vercel for automatic deployments on push.
+i am Attaching the Vercel Link you can view from there how Actually the Portfolio Website Looks
+
