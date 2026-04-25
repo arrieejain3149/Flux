@@ -10,6 +10,8 @@ import ParticlesBackground from "./components/ParticlesBackground";
 import SystemStatus from "./components/SystemStatus";
 import DataPlayground from "./components/DataPlayground";
 import DomainCloud from "./components/DomainCloud";
+import AboutMe from "./components/AboutMe";
+import SkillsGrid from "./components/SkillsGrid";
 
 export default function Portfolio() {
   const [showSplash, setShowSplash] = useState(true);
@@ -82,7 +84,10 @@ export default function Portfolio() {
 
               <div className="pl-0 md:pl-20 max-w-6xl mx-auto px-6 md:px-12 pb-32">
                 
-                {/* --- ABOUT SECTION --- */}
+                {/* --- NEW ABOUT ME SECTION --- */}
+                <AboutMe />
+
+                {/* --- OLD ABOUT SECTION (Contact & Education) --- */}
                 <section id="about" className="min-h-screen py-24 flex flex-col justify-center border-b border-[#262626]">
                   <motion.div 
                     initial={{ opacity: 0, y: 50 }}
@@ -234,32 +239,11 @@ export default function Portfolio() {
                   </motion.div>
                 </section>
 
-                {/* --- LANGUAGES KNOWN --- */}
-                <section id="languages" className="py-24 flex flex-col justify-center border-y border-[#262626]">
-                  <motion.div 
-                    initial={{ opacity: 0, y: 50 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
-                    transition={{ duration: 0.8 }}
-                    className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8"
-                  >
-                    <div>
-                      <h2 className="text-2xl font-normal tracking-tight mb-2 text-white uppercase">Core Languages</h2>
-                      <p className="text-sm text-zinc-500 tracking-widest uppercase">Syntax & Silicon</p>
-                    </div>
-                    
-                    <div className="flex flex-wrap gap-4">
-                      {["Python", "C", "Verilog VHDL", "MYSQL", "Javascript"].map((lang) => (
-                        <span key={lang} className="px-5 py-2 border border-[#262626] bg-[#050505] rounded-full text-sm text-zinc-300">
-                          {lang}
-                        </span>
-                      ))}
-                    </div>
-                  </motion.div>
-                </section>
+                {/* --- SKILLS GRID --- */}
+                <div id="skills"><SkillsGrid /></div>
 
                 {/* --- DATA PLAYGROUND --- */}
-                <section className="min-h-screen py-24 flex flex-col justify-center">
+                <section id="kmeans" className="min-h-screen py-24 flex flex-col justify-center">
                   <motion.div 
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}

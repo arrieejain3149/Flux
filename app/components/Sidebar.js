@@ -2,19 +2,22 @@
 
 import { useState } from "react";
 import Logo from "./Logo";
-import { Home, User, FolderGit2, Briefcase, Cpu, Globe, Code, Mail, Award } from "lucide-react";
+import { Home, User, FolderGit2, Briefcase, Cpu, Globe, Code, Mail, Award, Brain, BarChart2, Layers, Scatter } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Sidebar() {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const navItems = [
-    { id: "home", label: "Home", icon: Home },
-    { id: "about", label: "About", icon: User },
-    { id: "projects", label: "Projects", icon: FolderGit2 },
-    { id: "domains", label: "AI Domains", icon: Cpu },
-    { id: "achievements", label: "Achievements", icon: Award },
-    { id: "experience", label: "Experience", icon: Briefcase }
+    { id: "home",         label: "Home",          icon: Home },
+    { id: "about-me",    label: "About Me",       icon: User },
+    { id: "about",       label: "Identity",       icon: Layers },
+    { id: "projects",    label: "Projects",       icon: FolderGit2 },
+    { id: "domains",     label: "AI Domains",     icon: Brain },
+    { id: "skills",      label: "Tech Stack",     icon: Cpu },
+    { id: "kmeans",      label: "K-Means Lab",    icon: BarChart2 },
+    { id: "achievements",label: "Achievements",   icon: Award },
+    { id: "experience",  label: "Experience",     icon: Briefcase },
   ];
 
   const scrollToSection = (id) => {
