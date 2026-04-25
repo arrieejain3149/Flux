@@ -335,8 +335,9 @@ export default function Portfolio() {
                         <h3 className="text-xl font-normal text-white">Hackathons</h3>
                         <p className="text-sm text-zinc-500 uppercase tracking-widest mt-1 mb-3">Active Participant</p>
                         <ul className="text-sm text-zinc-400 leading-relaxed max-w-2xl space-y-2">
-                          <li>• HackJKLU 5.0 Pre-hackathon</li>
-                          <li>• Smart India Hackathon (SIH) Internal</li>
+                          <li>• HackJKLU v5.0 </li>
+                          <li>• Pre Hackathon by Ws Cube Tech </li>
+                          <li>• Smart India Hackathon (SIH) Internals</li>
                         </ul>
                       </div>
 
