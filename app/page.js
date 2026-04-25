@@ -99,7 +99,7 @@ export default function Portfolio() {
                         <div className="space-y-6">
                           <div>
                             <p className="text-cyan-400 font-normal">JK Lakshmipat University (JKLU)</p>
-                            <p className="text-sm text-zinc-500 uppercase tracking-widest mt-1">B.Tech CSE-AI</p>
+                            <p className="text-sm text-zinc-500 uppercase tracking-widest mt-1">BTech CSE-AI</p>
                           </div>
                           <div>
                             <p className="text-white font-normal">Mahaveer Public School</p>
@@ -141,7 +141,7 @@ export default function Portfolio() {
                     transition={{ duration: 0.8 }}
                   >
                     <h2 className="text-2xl font-normal tracking-tight mb-4 text-white uppercase">Engineered Systems</h2>
-                    <p className="text-sm text-zinc-500 tracking-widest uppercase mb-12">Blockchain & Web Architectures</p>
+                    <p className="text-sm text-zinc-500 tracking-widest uppercase mb-12">Linear Regression and Web Architects</p>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                       
