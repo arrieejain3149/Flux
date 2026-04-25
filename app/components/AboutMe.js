@@ -89,7 +89,7 @@ export default function AboutMe() {
                 <span className="text-white">JK Lakshmipat University (JKLU)</span>,
                 specialising in <span className="text-cyan-400">Computer Science &amp; AI</span>.
                 I&apos;m driven by a genuine curiosity for how machines learn — from the
-                mathematics of regression to the architecture of deep networks,I have Learned As of My Class 12th Some Basic About the Following.
+                mathematics of regression to the architecture of deep networks, I have Learned As of My Class 12th Some Basic About the Following AI Domains and Theory(Majorly).
               </p>
 
               {/* Focus-area highlights */}
