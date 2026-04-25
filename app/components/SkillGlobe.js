@@ -4,7 +4,7 @@ import { useRef, useMemo, useState, useEffect } from "react";
 import { motion, useAnimationFrame } from "framer-motion";
 
 const SKILLS = [
-  { label: "Python",               color: "#00ffff" },
+  { label: "Javascript basics",               color: "#00ffff" },
   { label: "C",                    color: "#00ffff" },
   { label: "Verilog VHDL",        color: "#67e8f9" },
   { label: "Artix-7 FPGA",        color: "#67e8f9" },
@@ -19,7 +19,7 @@ const SKILLS = [
   { label: "Reinforcement Learning", color: "#67e8f9" },
   { label: "Git",                  color: "#9ca3af" },
   { label: "MYSQL",                color: "#9ca3af" },
-  { label: "JavaScript",           color: "#00ffff" },
+  { label: "Python",           color: "#00ffff" },
 ];
 
 // Distribute points evenly on a unit sphere via Fibonacci lattice
